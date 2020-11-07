@@ -1,10 +1,15 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 0px;
+  /*box-sizing: border-box;*/
+}
+html {
+  width:100%
 }
 
 nav {
+  width: 100%;
+  max-width: 1200px;
   height: 70px;
   color: white;
   background-color: rgba(0, 0, 0, 0.83);
@@ -83,9 +88,11 @@ h1, h2 {
 
 
 body {
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.83);
-
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .btn-menu {
   width: 150px;
@@ -97,7 +104,7 @@ body {
   border: 1px solid rgb(230, 175, 75);
   padding: 50 50px;
   position: responsive;
-  /* margin: 20px 60px 60px 60px; */
+  margin: 20px 60px 60px 60px; 
   
 
 }
